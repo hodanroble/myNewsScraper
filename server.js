@@ -3,7 +3,7 @@ const expHndlBar = require("express-handlebars")
 const mongoose = require("mongoose");
 const bodPar = require("body-parser");
 const cheerio = require("cheerio");
-const request = require("request"); //trying withy request first as requested by the TA hahah punny!
+const request = require("request"); 
 const logger = require("morgan");
 
 const db = require ("./models");
