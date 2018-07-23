@@ -18,6 +18,7 @@ let app = express();
 
 //log request utilizing morgan logger
 app.use(logger("dev"));
+// app.use(express.static(__dirname + "/public"));
 //utilize the body-parser to manage the form submissions
 app.use(bodPar.urlencoded({ extended: true }));
 //Serve my public folder it's informatoin for the static directory
